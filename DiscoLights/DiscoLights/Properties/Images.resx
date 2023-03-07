@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="AmberOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AmberOff.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="AmberOffX128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AmberOffX128.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AmberOffX16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AmberOffX16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AmberOffX256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AmberOffX256.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AmberOffX32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AmberOffX32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AmberOffX48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AmberOffX48.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AmberOffX64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AmberOffX64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AmberOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AmberOn.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AmberOnX128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AmberOnX128.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AmberOnX16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AmberOnX16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AmberOnX256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AmberOnX256.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AmberOnX32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AmberOnX32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AmberOnX48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AmberOnX48.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AmberOnX64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AmberOnX64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlueOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BlueOff.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlueOffX128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BlueOffX128.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlueOffX16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BlueOffX16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlueOffX256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BlueOffX256.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlueOffX32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BlueOffX32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlueOffX48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BlueOffX48.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlueOffX64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BlueOffX64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlueOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BlueOn.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlueOnX128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BlueOnX128.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlueOnX16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BlueOnX16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlueOnX256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BlueOnX256.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlueOnX32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BlueOnX32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlueOnX48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BlueOnX48.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlueOnX64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BlueOnX64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GreenOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GreenOff.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GreenOffX128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GreenOffX128.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GreenOffX16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GreenOffX16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GreenOffX256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GreenOffX256.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GreenOffX32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GreenOffX32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GreenOffX48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GreenOffX48.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GreenOffX64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GreenOffX64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GreenOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GreenOn.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GreenOnX128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GreenOnX128.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GreenOnX16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GreenOnX16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GreenOnX256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GreenOnX256.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GreenOnX32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GreenOnX32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GreenOnX48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GreenOnX48.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GreenOnX64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GreenOnX64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RedOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RedOff.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RedOffX128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RedOffX128.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RedOffX16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RedOffX16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RedOffX256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RedOffX256.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RedOffX32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RedOffX32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RedOffX48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RedOffX48.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RedOffX64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RedOffX64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RedOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RedOn.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RedOnX128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RedOnX128.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RedOnX16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RedOnX16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RedOnX256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RedOnX256.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RedOnX32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RedOnX32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RedOnX48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RedOnX48.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RedOnX64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RedOnX64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UltravioletOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UltravioletOff.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UltravioletOffX128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UltravioletOffX128.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UltravioletOffX16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UltravioletOffX16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UltravioletOffX256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UltravioletOffX256.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UltravioletOffX32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UltravioletOffX32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UltravioletOffX48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UltravioletOffX48.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UltravioletOffX64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UltravioletOffX64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UltravioletOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UltravioletOn.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UltravioletOnX128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UltravioletOnX128.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UltravioletOnX16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UltravioletOnX16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UltravioletOnX256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UltravioletOnX256.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UltravioletOnX32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UltravioletOnX32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UltravioletOnX48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UltravioletOnX48.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UltravioletOnX64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UltravioletOnX64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhiteOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhiteOff.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhiteOffX128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhiteOffX128.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhiteOffX16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhiteOffX16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhiteOffX256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhiteOffX256.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhiteOffX32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhiteOffX32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhiteOffX48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhiteOffX48.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhiteOffX64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhiteOffX64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhiteOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhiteOn.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhiteOnX128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhiteOnX128.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhiteOnX16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhiteOnX16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhiteOnX256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhiteOnX256.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhiteOnX32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhiteOnX32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhiteOnX48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhiteOnX48.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhiteOnX64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhiteOnX64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="YellowOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\YellowOff.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="YellowOffX128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\YellowOffX128.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="YellowOffX16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\YellowOffX16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="YellowOffX256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\YellowOffX256.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="YellowOffX32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\YellowOffX32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="YellowOffX48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\YellowOffX48.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="YellowOffX64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\YellowOffX64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="YellowOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\YellowOn.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="YellowOnX128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\YellowOnX128.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="YellowOnX16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\YellowOnX16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="YellowOnX256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\YellowOnX256.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="YellowOnX32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\YellowOnX32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="YellowOnX48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\YellowOnX48.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="YellowOnX64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\YellowOnX64.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

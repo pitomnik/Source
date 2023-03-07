@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscoLights", "DiscoLights\DiscoLights.csproj", "{057E2CF0-26B2-4663-8C30-45FBEBB826AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscoLights.Tests", "DiscoLights.Tests\DiscoLights.Tests.csproj", "{1C0227D0-681C-4D60-A5D5-6ACC13488B6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscoLights.Audio", "DiscoLights.Audio\DiscoLights.Audio.csproj", "{0DA486F3-E34A-49E7-BB10-7CDF27390CE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscoLights.Shared", "DiscoLights.Shared\DiscoLights.Shared.csproj", "{01D1CF00-6451-4005-8AED-CA27974A5B92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1C3C3AC8-F260-4D26-980A-12D59D5DF33E}"
+	ProjectSection(SolutionItems) = preProject
+		Solution Items\Notes.txt = Solution Items\Notes.txt
+		Solution Items\ReadMe.rtf = Solution Items\ReadMe.rtf
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{057E2CF0-26B2-4663-8C30-45FBEBB826AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{057E2CF0-26B2-4663-8C30-45FBEBB826AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{057E2CF0-26B2-4663-8C30-45FBEBB826AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{057E2CF0-26B2-4663-8C30-45FBEBB826AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C0227D0-681C-4D60-A5D5-6ACC13488B6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C0227D0-681C-4D60-A5D5-6ACC13488B6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C0227D0-681C-4D60-A5D5-6ACC13488B6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C0227D0-681C-4D60-A5D5-6ACC13488B6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DA486F3-E34A-49E7-BB10-7CDF27390CE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DA486F3-E34A-49E7-BB10-7CDF27390CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DA486F3-E34A-49E7-BB10-7CDF27390CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DA486F3-E34A-49E7-BB10-7CDF27390CE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01D1CF00-6451-4005-8AED-CA27974A5B92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01D1CF00-6451-4005-8AED-CA27974A5B92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01D1CF00-6451-4005-8AED-CA27974A5B92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01D1CF00-6451-4005-8AED-CA27974A5B92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

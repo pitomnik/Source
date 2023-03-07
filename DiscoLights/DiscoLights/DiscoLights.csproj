@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{057E2CF0-26B2-4663-8C30-45FBEBB826AF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DiscoLights</RootNamespace>
+    <AssemblyName>DiscoLights</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\GreenOn.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\DiscoLights.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files\Microsoft Visual Studio 11.0\Team Tools\Static Analysis Tools\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files\Microsoft Visual Studio 11.0\Team Tools\Static Analysis Tools\FxCop\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\DiscoLights.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files\Microsoft Visual Studio 11.0\Team Tools\Static Analysis Tools\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files\Microsoft Visual Studio 11.0\Team Tools\Static Analysis Tools\FxCop\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Resources\Include\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\DiscoLightsInfo.cs">
+      <Link>Properties\DiscoLightsInfo.cs</Link>
+    </Compile>
+    <Compile Include="AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutForm.Designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImageLoader.cs" />
+    <Compile Include="LightColor.cs" />
+    <Compile Include="LightSize.cs" />
+    <Compile Include="LightState.cs" />
+    <Compile Include="NativeMethods.cs" />
+    <Compile Include="Orientation.cs" />
+    <Compile Include="Properties\Images.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Images.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Images.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Images.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\AmberOff.ico" />
+    <Content Include="Resources\AmberOffX128.png" />
+    <Content Include="Resources\AmberOffX16.png" />
+    <Content Include="Resources\AmberOffX256.png" />
+    <Content Include="Resources\AmberOffX32.png" />
+    <Content Include="Resources\AmberOffX48.png" />
+    <Content Include="Resources\AmberOffX64.png" />
+    <Content Include="Resources\AmberOn.ico" />
+    <Content Include="Resources\AmberOnX128.png" />
+    <Content Include="Resources\AmberOnX16.png" />
+    <Content Include="Resources\AmberOnX256.png" />
+    <Content Include="Resources\AmberOnX32.png" />
+    <Content Include="Resources\AmberOnX48.png" />
+    <Content Include="Resources\AmberOnX64.png" />
+    <Content Include="Resources\BlueOff.ico" />
+    <Content Include="Resources\BlueOffX128.png" />
+    <Content Include="Resources\BlueOffX16.png" />
+    <Content Include="Resources\BlueOffX256.png" />
+    <Content Include="Resources\BlueOffX32.png" />
+    <Content Include="Resources\BlueOffX48.png" />
+    <Content Include="Resources\BlueOffX64.png" />
+    <Content Include="Resources\BlueOn.ico" />
+    <Content Include="Resources\BlueOnX128.png" />
+    <Content Include="Resources\BlueOnX16.png" />
+    <Content Include="Resources\BlueOnX256.png" />
+    <Content Include="Resources\BlueOnX32.png" />
+    <Content Include="Resources\BlueOnX48.png" />
+    <Content Include="Resources\BlueOnX64.png" />
+    <Content Include="Resources\GreenOff.ico" />
+    <Content Include="Resources\GreenOffX128.png" />
+    <Content Include="Resources\GreenOffX16.png" />
+    <Content Include="Resources\GreenOffX256.png" />
+    <Content Include="Resources\GreenOffX32.png" />
+    <Content Include="Resources\GreenOffX48.png" />
+    <Content Include="Resources\GreenOffX64.png" />
+    <Content Include="Resources\GreenOn.ico" />
+    <Content Include="Resources\GreenOnX128.png" />
+    <Content Include="Resources\GreenOnX16.png" />
+    <Content Include="Resources\GreenOnX256.png" />
+    <Content Include="Resources\GreenOnX32.png" />
+    <Content Include="Resources\GreenOnX48.png" />
+    <Content Include="Resources\GreenOnX64.png" />
+    <Content Include="Resources\RedOff.ico" />
+    <Content Include="Resources\RedOffX128.png" />
+    <Content Include="Resources\RedOffX16.png" />
+    <Content Include="Resources\RedOffX256.png" />
+    <Content Include="Resources\RedOffX32.png" />
+    <Content Include="Resources\RedOffX48.png" />
+    <Content Include="Resources\RedOffX64.png" />
+    <Content Include="Resources\RedOn.ico" />
+    <Content Include="Resources\RedOnX128.png" />
+    <Content Include="Resources\RedOnX16.png" />
+    <Content Include="Resources\RedOnX256.png" />
+    <Content Include="Resources\RedOnX32.png" />
+    <Content Include="Resources\RedOnX48.png" />
+    <Content Include="Resources\RedOnX64.png" />
+    <Content Include="Resources\ScriabinKeyboard.png" />
+    <Content Include="Resources\UltravioletOff.ico" />
+    <Content Include="Resources\UltravioletOffX128.png" />
+    <Content Include="Resources\UltravioletOffX16.png" />
+    <Content Include="Resources\UltravioletOffX256.png" />
+    <Content Include="Resources\UltravioletOffX32.png" />
+    <Content Include="Resources\UltravioletOffX48.png" />
+    <Content Include="Resources\UltravioletOffX64.png" />
+    <Content Include="Resources\UltravioletOn.ico" />
+    <Content Include="Resources\UltravioletOnX128.png" />
+    <Content Include="Resources\UltravioletOnX16.png" />
+    <Content Include="Resources\UltravioletOnX256.png" />
+    <Content Include="Resources\UltravioletOnX32.png" />
+    <Content Include="Resources\UltravioletOnX48.png" />
+    <Content Include="Resources\UltravioletOnX64.png" />
+    <Content Include="Resources\WhiteOff.ico" />
+    <Content Include="Resources\WhiteOffX128.png" />
+    <Content Include="Resources\WhiteOffX16.png" />
+    <Content Include="Resources\WhiteOffX256.png" />
+    <Content Include="Resources\WhiteOffX32.png" />
+    <Content Include="Resources\WhiteOffX48.png" />
+    <Content Include="Resources\WhiteOffX64.png" />
+    <Content Include="Resources\WhiteOn.ico" />
+    <Content Include="Resources\WhiteOnX128.png" />
+    <Content Include="Resources\WhiteOnX16.png" />
+    <Content Include="Resources\WhiteOnX256.png" />
+    <Content Include="Resources\WhiteOnX32.png" />
+    <Content Include="Resources\WhiteOnX48.png" />
+    <Content Include="Resources\WhiteOnX64.png" />
+    <Content Include="Resources\YellowOff.ico" />
+    <Content Include="Resources\YellowOffX128.png" />
+    <Content Include="Resources\YellowOffX16.png" />
+    <Content Include="Resources\YellowOffX256.png" />
+    <Content Include="Resources\YellowOffX32.png" />
+    <Content Include="Resources\YellowOffX48.png" />
+    <Content Include="Resources\YellowOffX64.png" />
+    <Content Include="Resources\YellowOn.ico" />
+    <Content Include="Resources\YellowOnX128.png" />
+    <Content Include="Resources\YellowOnX16.png" />
+    <Content Include="Resources\YellowOnX256.png" />
+    <Content Include="Resources\YellowOnX32.png" />
+    <Content Include="Resources\YellowOnX48.png" />
+    <Content Include="Resources\YellowOnX64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DiscoLights.Audio\DiscoLights.Audio.csproj">
+      <Project>{0DA486F3-E34A-49E7-BB10-7CDF27390CE1}</Project>
+      <Name>DiscoLights.Audio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DiscoLights.Shared\DiscoLights.Shared.csproj">
+      <Project>{01D1CF00-6451-4005-8AED-CA27974A5B92}</Project>
+      <Name>DiscoLights.Shared</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>del "$(TargetName).config" /q
+ren "$(TargetPath).config" "$(TargetName).config"</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterProcessObject", "InterProcessObject\InterProcessObject.csproj", "{D719ACDA-3FF0-4C61-80E1-4B0AE7FCB5D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterProcessObjectDemo", "InterProcessObjectDemo\InterProcessObjectDemo.csproj", "{A2BF1163-8AE3-4080-B10F-5AD8EEC26D39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D719ACDA-3FF0-4C61-80E1-4B0AE7FCB5D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D719ACDA-3FF0-4C61-80E1-4B0AE7FCB5D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D719ACDA-3FF0-4C61-80E1-4B0AE7FCB5D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D719ACDA-3FF0-4C61-80E1-4B0AE7FCB5D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2BF1163-8AE3-4080-B10F-5AD8EEC26D39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2BF1163-8AE3-4080-B10F-5AD8EEC26D39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2BF1163-8AE3-4080-B10F-5AD8EEC26D39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2BF1163-8AE3-4080-B10F-5AD8EEC26D39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

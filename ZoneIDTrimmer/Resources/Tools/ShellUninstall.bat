@@ -1,0 +1,1 @@
+srm uninstall ZoneIDTrimmer.Shell.dll -codebase

@@ -1,0 +1,1 @@
+Disable main form key preview when displaying message box to prevent Esc closing program.

@@ -1,0 +1,3 @@
+Add shortcuts to program menu (a, w, d).
+Create new compatible setup project.
+Add logging to C++ projects.

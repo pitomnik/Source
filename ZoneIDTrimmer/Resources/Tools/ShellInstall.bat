@@ -1,0 +1,1 @@
+srm install ZoneIDTrimmer.Shell.dll -codebase

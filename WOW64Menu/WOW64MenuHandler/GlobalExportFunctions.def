@@ -1,0 +1,6 @@
+LIBRARY	"WOW64MenuHandler"
+EXPORTS
+    DllGetClassObject   PRIVATE
+    DllCanUnloadNow     PRIVATE
+    DllRegisterServer   PRIVATE
+    DllUnregisterServer PRIVATE

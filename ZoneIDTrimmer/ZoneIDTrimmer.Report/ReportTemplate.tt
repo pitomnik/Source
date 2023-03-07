@@ -1,0 +1,26 @@
+﻿<#@ template language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="ZoneIDTrimmer.Shared" #>
+<#@ import namespace="ZoneIDTrimmer.Report.Properties" #>
+<html>
+<head>
+	<title><#=_reportName#></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<style>
+		div {
+			white-space: nowrap;
+		}
+	</style>
+</head>
+<body>
+<#=BuildPathGroupHtml(Resources.IgnoredFolders, _ignoredPaths.Where(x => x.Item1 == PathType.Folder).Select(y => y.Item2))#>
+<#=BuildPathGroupHtml(Resources.IgnoredFiles, _ignoredPaths.Where(x => x.Item1 == PathType.File).Select(y => y.Item2))#>
+<#=BuildPathGroupHtml(Resources.TrimmedFolders, _trimmedPaths.Where(x => x.Item1 == PathType.Folder).Select(y => y.Item2))#>
+<#=BuildPathGroupHtml(Resources.TrimmedFiles, _trimmedPaths.Where(x => x.Item1 == PathType.File).Select(y => y.Item2))#>
+<#=BuildPathGroupHtml(Resources.FailedFolders, _failedPaths.Where(x => x.Item1 == PathType.Folder).Select(y => y.Item2))#>
+<#=BuildPathGroupHtml(Resources.FailedFiles, _failedPaths.Where(x => x.Item1 == PathType.File).Select(y => y.Item2))#>
+</body>
+</html>

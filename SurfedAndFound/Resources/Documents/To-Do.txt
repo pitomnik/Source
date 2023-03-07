@@ -1,0 +1,3 @@
+- use hand cursor in tree
+- more info logging (startup, version...)
+- crashing when closing bar in tabbed browser

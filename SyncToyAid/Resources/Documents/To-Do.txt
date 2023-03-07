@@ -1,0 +1,7 @@
+- Solve check event on load
+- Add general error dialog
+- Place all text to resources
+- Check load without pair config
+- Check all windows title
+- Add rename, change path and duplicate buttons
+- Implement sorting by column

@@ -1,0 +1,101 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5EDD78D6-0B79-48E1-A3CE-4F65FA2F5743}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SurfedAndFound.Msie</RootNamespace>
+    <AssemblyName>SurfedAndFound.Msie</AssemblyName>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Interop.SHDocVw, Version=1.1.0.0, Culture=neutral, PublicKeyToken=67aed1dc153d8411, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Resources\Include\Interop.SHDocVw.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Resources\Include\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\Resources\Configuration\SurfedAndFoundInfo.cs">
+      <Link>Properties\SurfedAndFoundInfo.cs</Link>
+    </Compile>
+    <Compile Include="ComInterop.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MsieSearchPane.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SurfedAndFound.Logic\SurfedAndFound.Logic.csproj">
+      <Project>{09230BAD-FEBB-449B-836A-A69BDB613DEF}</Project>
+      <Name>SurfedAndFound.Logic</Name>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\SurfedAndFound.Shared\SurfedAndFound.Shared.csproj">
+      <Project>{9AA52986-9673-42D7-9CC8-0C20B295835F}</Project>
+      <Name>SurfedAndFound.Shared</Name>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\SurfedAndFound.UI\SurfedAndFound.UI.csproj">
+      <Project>{1D51EA9D-2F05-45FD-9773-9BCAF93FED15}</Project>
+      <Name>SurfedAndFound.UI</Name>
+      <Private>True</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>set deploy=$(SolutionDir)Deploy
+if not exist "%25deploy%25" md "%25deploy%25"
+copy "$(TargetPath)" "%25deploy%25\" /y
+
+rem call "%2525VS80COMNTOOLS%2525\vsvars32.bat"
+rem gacutil -i "$(TargetPath)"
+</PostBuildEvent>
+  </PropertyGroup>
+</Project>
