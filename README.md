@@ -10,6 +10,7 @@
 - [WOW64Menu](##WOW64Menu)
 - [ZoneIDTrimmer](##ZoneIDTrimmer)
 
+<a name="DiscoLights"/>
 ## DiscoLights
 
 <https://github.com/pitomnik/Source/tree/main/DiscoLights>
