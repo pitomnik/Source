@@ -6,9 +6,9 @@
 
 ## Table of Contents
 
-- [DiscoLights](##DiscoLights)
-- [WOW64Menu](##WOW64Menu)
-- [ZoneIDTrimmer](##ZoneIDTrimmer)
+- [DiscoLights](#DiscoLights)
+- [WOW64Menu](#WOW64Menu)
+- [ZoneIDTrimmer](#ZoneIDTrimmer)
 
 <a name="DiscoLights"/>
 ## DiscoLights
