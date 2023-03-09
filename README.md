@@ -2,7 +2,7 @@
 
 ## OSI certified code
 
-https://github.com/pitomnik/Source
+<https://github.com/pitomnik/Source>
 
 ## Table of Contents
 
