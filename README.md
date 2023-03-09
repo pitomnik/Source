@@ -15,10 +15,12 @@
 
 <https://github.com/pitomnik/Source/tree/main/DiscoLights>
 
+<a name="WOW64Menu"/>
 ## WOW64Menu
 
 <https://github.com/pitomnik/Source/tree/main/WOW64Menu>
 
+<a name="ZoneIDTrimmer"/>
 ## ZoneIDTrimmer
 
 <https://github.com/pitomnik/Source/tree/main/ZoneIDTrimmer>
