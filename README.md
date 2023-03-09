@@ -2,7 +2,7 @@
 
 ## OSI certified code
 
-Experienced Software Engineer with a demonstrated history of working in the semiconductors, software/hardware, IT and Fintech industries. Skilled in .NET and Java backend development. Strong engineering professional with a Master of Science degree and more than 30 years of hands-on experience.
+https://github.com/pitomnik/Source
 
 ## Table of Contents
 
