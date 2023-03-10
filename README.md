@@ -1,4 +1,4 @@
-# Gasanov.net
+# ShGasanov
 
 ## OSI certified code
 
