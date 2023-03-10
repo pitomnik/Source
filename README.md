@@ -2,7 +2,7 @@
 
 ## OSI certified code
 
-<https://github.com/pitomnik/Source>
+<https://github.com/shgasanov/Source>
 
 ## Table of Contents
 
@@ -13,14 +13,14 @@
 <a name="DiscoLights"/>
 ## DiscoLights
 
-<https://github.com/pitomnik/Source/tree/main/DiscoLights>
+<https://github.com/shgasanov/Source/tree/main/DiscoLights>
 
 <a name="WOW64Menu"/>
 ## WOW64Menu
 
-<https://github.com/pitomnik/Source/tree/main/WOW64Menu>
+<https://github.com/shgasanov/Source/tree/main/WOW64Menu>
 
 <a name="ZoneIDTrimmer"/>
 ## ZoneIDTrimmer
 
-<https://github.com/pitomnik/Source/tree/main/ZoneIDTrimmer>
+<https://github.com/shgasanov/Source/tree/main/ZoneIDTrimmer>
