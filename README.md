@@ -1,4 +1,4 @@
-# Pitomnik
+# Gasanov.net
 
 ## OSI certified code
 
