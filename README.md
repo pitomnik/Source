@@ -1,6 +1,6 @@
 # ShGasanov
 
-## OSI certified code
+## OSI Certified Code
 
 <https://github.com/shgasanov/trunk>
 
