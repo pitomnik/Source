@@ -1,0 +1,6 @@
+EXPORTS
+	InstallHook
+	UninstallHook
+
+SECTIONS
+	.shared READ WRITE SHARED
